@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+<div class="container conLog">
+  <h1>Register</h1>
+
+  <!-- Makes POST request to /login route -->
+
+  <div class="wrapper">
+    <form class="formLogin" action="/register" method="POST">
+
+      <label for="email">Email</label>
+      <input type="email" class="inputLogin" name="username">
+
+      <label for="password">Password</label>
+      <input type="password" class="inputLogin" name="password">
+      <button type="submit" class="loginButton">Register</button>
+    </form>
+
+    <a class="thirdParty" href="/auth/google" role="button">
+      <img class="icon" src="/img/google.png" alt="google icon">
+      Sign up with Google
+    </a>
+  </div>
+</div>
+
+
+
+<%- include('partials/footer') %>

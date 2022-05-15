@@ -1,0 +1,255 @@
+/* 
+  font-family: 'Prompt', sans-serif; //200, 500
+  font-family: 'Rubik Puddles', cursive; 
+  
+  #F2C879
+  #8C5E35
+  #402823
+  */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-color: #E8ECEF;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  color: white;
+
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 20px;
+  letter-spacing: 10px;
+}
+
+p{
+  letter-spacing:3px;
+  font-size: 1.4rem;
+}
+
+.secretColor{
+  background-color: rgb(57, 56, 56);
+  cursor: pointer;
+}
+
+.secretColor:hover{
+  
+  box-shadow: 3px 2px 20px rgb(191, 189, 189);
+  transition: .5s;
+}
+
+.allCon {
+  text-align: center;
+  
+}
+
+.secret {
+	background: black;
+	border-radius: 50%;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+    box-shadow: 3px 2px 45px #c6a363;
+	}
+
+	70% {
+    box-shadow: 3px 2px 35px #F2C879;
+	}
+
+	100% {
+    box-shadow: 3px 2px 45px #c6a464;
+	}
+}
+
+.container{
+  background-color: #5b3831;
+  padding: 100px;
+  margin-bottom: 50px;
+}
+
+.secret{
+  width: 20%;
+  padding:20px;
+
+}
+
+.homeButton a{
+  padding:30px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 20px rgb(191, 189, 189);
+}
+
+.homeButton a:hover{
+  opacity: .8;
+}
+.homeButton a:active{
+  opacity: .6;
+}
+
+button:hover{
+  opacity: .8;
+}
+button:active{
+  opacity: .6;
+}
+
+
+.login{
+  background-color: #F2C879;
+  color:#402823;
+}
+
+.register{
+  background-color: #402823;
+  color: white;
+}
+
+
+
+/* login */
+.formLogin{
+  width: fit-content;
+  padding: 50px 50px 50px 20px;
+  box-shadow: 3px 2px 15px rgba(32, 31, 31, 0.272);
+}
+
+.inputLogin{
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+
+.loginButton{
+  padding:10px 15px; 
+  font-family: 'Prompt', sans-serif;
+  font-size: 1rem;
+  border-radius:10px;
+  cursor: pointer;
+  background-color: #F2C879;
+  color:#402823;
+  border: none;
+
+}
+
+
+label{
+  font-size: 1rem;
+}
+.conLog{
+/*   
+  height: 70vh; */
+}
+
+
+
+/* compose */
+
+.sec{
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.composeP{  margin-bottom: 20px;
+}
+
+.composeInput{
+  margin-top: 20px;
+}
+
+
+
+/* footer */
+
+.footer {
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgba(105, 96, 96, 0.311);
+  opacity: .3;
+}
+
+.footer:hover{
+  opacity: 1;
+  transition: .2s  ease-in;
+}
+
+.nav-contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.nav-contacts img {
+  width: 30px;
+  padding-right: 5px;
+
+}
+
+
+.resource-links {
+  text-align: center;
+  font-size: .7vw;
+  background-color: var(--light);
+}
+
+.endNav{
+  position: fixed;
+  bottom:0;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+
+}
+
+.relative-endNav{
+  position: relative;
+}
+
+/* register/login */
+
+.icon{
+  width: 20px;
+   margin-right: 10px;
+
+}
+
+.thirdParty{
+  display: flex;
+  width: fit-content;
+  background-color: white;
+  align-items: center;
+text-decoration: none;
+  padding: 20px;
+  height: fit-content;
+  margin-top: 20px;  
+  box-shadow: 3px 2px 15px rgba(32, 31, 31, 0.272);
+  transition: .2s;
+}
+
+.thirdParty:hover{
+  
+  background-color: rgba(105, 96, 96, 0.311);
+  transition: .2s;
+  border-radius: 10px;
+}
+
+.nameLink{
+  font-size: .8rem;
+}
